@@ -48,6 +48,10 @@ implementation
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   EdtTokenBot.Text := 'YOUR_API_TOKEN_HERE';
+  EdtTokenBot.Text := 'AQGIxc4AqZwX-SEb5w5ZFCviJw4GlmNapKcD1-L-wbJZ9ikO-qxBhigAYzRYPOlABJqxItDYovz3Ydbm4UXEP'+
+                       'wh7EdrzE6OC3M8vSqBWbRfZd8WWU6TYluRDr5Nrn4QD0e3kGbOyi8UY3bZ7OB62hii06Gvq9fOtrYM5LGF6b3'+
+                       'Cf5m2ad8V3XubcHzR2MMQ19cxyBsLtRBtvPODNLL5v-aE8E17jFhj7C11YIQWarkUMRqc9N0kB6zPwZbMPmMLCd'+
+                       'BaAqOkD-dLh_ayqohbBh4IZeksE4tjulY8-5F9sZEdMQhwwqYcqQiNkT35R0MoOU3bNL4q16g-Vfx30_q9_450uN8kDlQAAAABJD7nPAA';
 
   // use the button "getUpdates" for get chats IDs(only messages sent to your bot)
   EdtUserId.Text := 'USERID_FOR_SEND_MESSAGES';

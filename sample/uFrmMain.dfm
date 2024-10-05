@@ -11,10 +11,8 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'Consolas'
   Font.Style = []
-  OldCreateOrder = False
   Position = poScreenCenter
   OnCreate = FormCreate
-  PixelsPerInch = 96
   TextHeight = 13
   object SpeedButton1: TSpeedButton
     Left = 178
@@ -72,8 +70,8 @@ object Form1: TForm1
     ReadOnly = True
     ScrollBars = ssVertical
     TabOrder = 2
-    ExplicitLeft = 5
-    ExplicitTop = 153
+    ExplicitTop = 157
+    ExplicitWidth = 407
   end
   object BtnSendMsg: TButton
     Left = 5
